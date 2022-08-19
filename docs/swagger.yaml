@@ -1,0 +1,423 @@
+basePath: /
+definitions:
+  request.BookLabel:
+    properties:
+      book_id:
+        type: integer
+      labels:
+        items:
+          type: string
+        type: array
+    type: object
+  request.GetBookWithId:
+    properties:
+      book_id:
+        type: integer
+    type: object
+  request.GetBookWithIds:
+    properties:
+      book_id:
+        items:
+          type: integer
+        type: array
+    type: object
+  request.Login:
+    properties:
+      password:
+        description: 密码
+        type: string
+      user_id:
+        description: 用户学工号
+        type: integer
+    type: object
+  request.Register:
+    properties:
+      college:
+        type: string
+      email:
+        type: string
+      grade:
+        type: integer
+      header_img:
+        type: string
+      labels:
+        items:
+          type: string
+        type: array
+      nickName:
+        type: string
+      password:
+        type: string
+      phone:
+        type: string
+      user_id:
+        type: integer
+      username:
+        type: string
+    type: object
+  request.UpdatePwd:
+    properties:
+      newPassword:
+        description: 新密码
+        type: string
+      password:
+        description: 密码
+        type: string
+      user_id:
+        description: 用户名
+        type: integer
+    type: object
+info:
+  contact: {}
+  description: This is a sample Server pets
+  title: BookRecSystem API
+  version: 0.0.1
+paths:
+  /api/recommend/addBookIntoList:
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: 图书id
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/request.GetBookWithId'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: '{"success":true,"data":{},"msg":"获取成功"}'
+          schema:
+            type: string
+      security:
+      - ApiKeyAuth: []
+      summary: 添加图书到书单
+      tags:
+      - Recommond
+  /api/recommend/bookInfo:
+    get:
+      consumes:
+      - application/json
+      parameters:
+      - in: query
+        name: book_id
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: '{"success":true,"data":{},"msg":"获取成功"}'
+          schema:
+            type: string
+      summary: 获取图书信息
+      tags:
+      - Recommond
+  /api/recommend/bookList:
+    get:
+      consumes:
+      - application/json
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: '{"success":true,"data":{},"msg":"获取成功"}'
+          schema:
+            type: string
+      security:
+      - ApiKeyAuth: []
+      summary: 获取个人书单
+      tags:
+      - Recommond
+  /api/recommend/booksBySort:
+    get:
+      consumes:
+      - application/json
+      parameters:
+      - in: query
+        name: sort_id
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: '{"success":true,"data":{},"msg":"获取成功"}'
+          schema:
+            type: string
+      summary: 获取分类图书列表
+      tags:
+      - Recommond
+  /api/recommend/booksNameBySearch:
+    get:
+      consumes:
+      - application/json
+      parameters:
+      - in: query
+        name: query
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: '{"success":true,"data":{},"msg":"获取成功"}'
+          schema:
+            type: string
+      summary: 根据查询信息查找相关图书名称
+      tags:
+      - Recommond
+  /api/recommend/deleteBookFromList:
+    delete:
+      consumes:
+      - application/json
+      parameters:
+      - description: 图书id
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/request.GetBookWithIds'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: '{"success":true,"data":{},"msg":"获取成功"}'
+          schema:
+            type: string
+      security:
+      - ApiKeyAuth: []
+      summary: 从书单中删除
+      tags:
+      - Recommond
+  /api/recommend/feedBacks:
+    get:
+      consumes:
+      - application/json
+      parameters:
+      - description: 页码
+        in: query
+        name: page
+        type: integer
+      - description: 每页大小
+        in: query
+        name: pageSize
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: '{"success":true,"data":{},"msg":"获取成功"}'
+          schema:
+            type: string
+      security:
+      - ApiKeyAuth: []
+      summary: 后台获取反馈信息
+      tags:
+      - Recommond
+  /api/recommend/myFavoriteBooks:
+    get:
+      consumes:
+      - application/json
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: '{"success":true,"data":{},"msg":"获取成功"}'
+          schema:
+            type: string
+      summary: 推荐我可能喜欢的书
+      tags:
+      - Recommond
+  /api/recommend/newBooks:
+    get:
+      consumes:
+      - application/json
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: '{"success":true,"data":{},"msg":"获取成功"}'
+          schema:
+            type: string
+      summary: 系统推荐的新书
+      tags:
+      - Recommond
+  /api/recommend/sysAllBooks:
+    get:
+      consumes:
+      - application/json
+      parameters:
+      - description: 页码
+        in: query
+        name: page
+        type: integer
+      - description: 每页大小
+        in: query
+        name: pageSize
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: '{"success":true,"data":{},"msg":"获取成功"}'
+          schema:
+            type: string
+      security:
+      - ApiKeyAuth: []
+      summary: 分页获取图书
+      tags:
+      - Recommond
+  /api/recommend/updateBook:
+    put:
+      consumes:
+      - application/json
+      parameters:
+      - description: 页码, 每页大小
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/request.BookLabel'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: '{"success":true,"data":{},"msg":"获取成功"}'
+          schema:
+            type: string
+      security:
+      - ApiKeyAuth: []
+      summary: 更新图书信息
+      tags:
+      - Recommond
+  /api/user/login:
+    post:
+      parameters:
+      - description: 用户学工号, 密码
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/request.Login'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: '{"success":true,"data":{},"msg":"登陆成功"}'
+          schema:
+            type: string
+      summary: 用户登录
+      tags:
+      - User
+  /api/user/register:
+    post:
+      parameters:
+      - description: 用户信息
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/request.Register'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: '{"success":true,"data":{},"msg":"注册成功"}'
+          schema:
+            type: string
+      summary: 用户注册账号
+      tags:
+      - User
+  /api/user/updatePassword:
+    put:
+      parameters:
+      - description: 用户学工号, 原密码, 新密码
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/request.UpdatePwd'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: '{"success":true,"data":{},"msg":"修改成功"}'
+          schema:
+            type: string
+      security:
+      - ApiKeyAuth: []
+      summary: 用户修改密码
+      tags:
+      - User
+  /api/user/updateUserInterest:
+    put:
+      consumes:
+      - application/json
+      parameters:
+      - description: 读书兴趣
+        in: body
+        name: data
+        required: true
+        schema:
+          items:
+            type: string
+          type: array
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: '{"success":true,"data":{},"msg":"设置成功"}'
+          schema:
+            type: string
+      security:
+      - ApiKeyAuth: []
+      summary: 设置当前用户信息
+      tags:
+      - User
+  /api/user/userInfo:
+    get:
+      consumes:
+      - application/json
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: '{"success":true,"data":{},"msg":"获取成功"}'
+          schema:
+            type: string
+      security:
+      - ApiKeyAuth: []
+      summary: 获取用户信息
+      tags:
+      - User
+  /api/user/userList:
+    get:
+      consumes:
+      - application/json
+      parameters:
+      - description: 页码
+        in: query
+        name: page
+        type: integer
+      - description: 每页大小
+        in: query
+        name: pageSize
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: '{"success":true,"data":{},"msg":"获取成功"}'
+          schema:
+            type: string
+      security:
+      - ApiKeyAuth: []
+      summary: 分页获取用户列表
+      tags:
+      - User
+securityDefinitions:
+  ApiKeyAuth:
+    in: header
+    name: x-token
+    type: apiKey
+swagger: "2.0"

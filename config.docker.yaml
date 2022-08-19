@@ -1,0 +1,90 @@
+# workflow Global Configuration
+
+# jwt configuration
+jwt:
+  signing-key: 'BookRecSystem'
+  expires-time: 604800
+  buffer-time: 86400
+
+# zap logger configuration
+zap:
+  level: 'info'
+  format: 'console'
+  prefix: '[BOOK-REC-SYSTEM]'
+  director: 'log'
+  link-name: 'latest_log'
+  show-line: true
+  encode-level: 'LowercaseColorLevelEncoder'
+  stacktrace-key: 'stacktrace'
+  log-in-console: true
+
+# redis configuration
+redis:
+  db: 0
+  addr: '123.57.20.104:6379'
+  password: '123456'
+
+# casbin configuration
+casbin:
+  model-path: './resource/rbac_model.conf'
+
+# system configuration
+system:
+  env: 'public'  # Change to "develop" to skip authentication for development mode
+  addr: 8888
+  use-multipoint: false
+  oss-type: 'local'    # 控制oss选择走本期还是 七牛等其他仓 自行增加其他oss仓可以在 server/utils/upload/upload.go 中 NewOss函数配置
+
+# mysql connect configuration
+mysql:
+  path: '123.57.20.104:3306'
+  config: 'charset=utf8mb4&parseTime=True&loc=Local'
+  db-name: 'book_rec_system'
+  username: 'root'
+  password: 'Tanshaokang1*.'
+  max-idle-conns: 10
+  max-open-conns: 100
+  log-mode: 'debug'
+  log-zap: false
+
+# local configuration
+local:
+  path: 'uploads/file'
+
+# autocode configuration
+autocode:
+  transfer-restart: true
+  root: ""
+  server: /server
+  server-api: /api/v1/autocode
+  server-initialize: /initialize
+  server-model: /model/autocode
+  server-request: /model/autocode/request/
+  server-router: /router/autocode
+  server-service: /service/autocode
+  web: /web/src
+  web-api: /api
+  web-table: /view
+
+# qiniu configuration
+qiniu:
+  zone: 'ZoneHuanan'
+  bucket: 'ruanzhu-workflow'
+  img-path: 'r9qsta3s9.hn-bkt.clouddn.com'
+  use-https: false
+  access-key: 'kxtFkOLoWc7NOeUeH4U8vburLbrB_yZMkmVAnpAc'
+  secret-key: 'tUlVBk7EBHpHzWVKdp_3IAEh0c77yBzAYPD7xmq7'
+  use-cdn-domains: false
+
+# timer task db clear table
+Timer:
+  start: true
+  spec: "@daily"  # 定时任务详细配置参考 https://pkg.go.dev/github.com/robfig/cron/v3
+  detail: [
+    # tableName: 需要清理的表名
+    # compareField: 需要比较时间的字段
+    # interval: 时间间隔, 具体配置详看 time.ParseDuration() 中字符串表示 且不能为负数
+    # 2160h = 24 * 30 * 3 -> 三个月
+    { tableName: "sys_operation_records" , compareField: "created_at", interval: "2160h" },
+    #{ tableName: "log2" , compareField: "created_at", interval: "2160h" }
+  ]

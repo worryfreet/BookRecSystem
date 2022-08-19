@@ -1,0 +1,344 @@
+{
+  "data": {
+    "result": [
+      {
+        "author": "张习泉主编",
+        "bookCardD": "46c732e52e985b5d07af49eb7d12c468",
+        "bookName": "汽车发动机管理系统检测与维修",
+        "cnFenlei": "U472.43",
+        "coverurl": "http://cover.duxiu.com/coverNew/CoverNew.dll?iid=6d6a63656c6b63656a6c5aa2a393ab95a899a6a195a69f3834333338343034",
+        "d": "788D1B3F13B8275EB1CC519288099A31",
+        "dataproviders": "0,2,100,21",
+        "date": "2018.01",
+        "dxid": "000017280269",
+        "fenlei": "190405110403",
+        "introduce": "本书以发动机系统为领域, 以该领域的项目为载体实施教学, 项目选取科学、符合该门课程的工作逻辑、能形成系列知识, 让学生在完成项目的过程中逐步提高职业能力, 同时要考虑了可操作性。",
+        "isFromBW": true,
+        "isFromJG": false,
+        "isFromNewLib": false,
+        "isFromZX": false,
+        "jpathD": "74018b132e3fdaf2a4bf70e24b987ee3",
+        "keyword": "汽车-发动机-机械系统-车辆检修-高等学校-教材",
+        "mulu": [
+          {
+            "dir": "项目一  发动机管理系统简介",
+            "pageNum": 1
+          },
+          {
+            "dir": "课题  认识发动机管理系统",
+            "pageNum": 1
+          },
+          {
+            "dir": "项目二  发动机进气系统检测与维修",
+            "pageNum": 8
+          }
+        ],
+        "page": "139",
+        "pdfOffline": false,
+        "pdgD": "7370ba0e8522f6cffc2d0e92969ef12a",
+        "publisher": "北京：北京理工大学出版社",
+        "ssid": "96187168",
+        "zxD": "ef7a57e351810894f33c9ecb785c6554"
+      },
+      {
+        "author": "宗明建，赵雪永，赵海宾主编",
+        "bookName": "汽车发动机机械系统检修",
+        "coverurl": "http://cover.duxiu.com/coverNew/CoverNew.dll?iid=716e6769706f676a68685ea6a797af99ac9daaa599aaa33234303332313738",
+        "date": "2018.03",
+        "introduce": "本教材以发动机检测与维修的工作过程为导向, 系统讲解发动",
+        "keyword": "汽车-发动机-机械系统-车辆检修-教材",
+        "page": "337",
+        "pdfOffline": false,
+        "publisher": "北京：北京理工大学出版社"
+      },
+      {
+        "author": "朱渊清主编",
+        "bookCardD": "71e67b798ca171136f17e06076024a4b",
+        "bookName": "新史学发覆",
+        "cnFenlei": "K0-53",
+        "coverurl": "http://cover.duxiu.com/coverNew/CoverNew.dll?iid=6568636b6b686369686a5aa2a393ab95a899a6a195a69f3038353337363234",
+        "d": "DE6ACA7982078EC2A6894C74523C413B",
+        "dataproviders": "100,21",
+        "date": "2019",
+        "dxid": "000018777467",
+        "fenlei": "110131",
+        "introduce": "本书收录了8篇史学研究的论文，作者均为文史学界的重要人物，撰述者包括王小林、徐雁平、陈怀宇、聂鸿音、陈学然、翟志成等，内容涉及史学理论、学者生平研究等，提出了一些史学理论和个案研究的新观点、新研究方法等，是一部重要的史学研究作品集。",
+        "isFromBW": true,
+        "isFromJG": false,
+        "isFromNewLib": false,
+        "isFromZX": false,
+        "jpathD": "e20f9179907aeffe2b26f1e451838920",
+        "keyword": "史学-文集",
+        "mulu": [],
+        "page": "327",
+        "pdfOffline": false,
+        "pdgD": "f2378fe0126c0eb978efbf2bb636c23f",
+        "publisher": "中西书局",
+        "ssid": "14774546",
+        "zxD": "5fa52764575584bc4e9f90f068427333"
+      },
+      {
+        "author": "（美）乔治·萨顿（GeorgeP.Sutton），（美）奥斯卡·比布拉兹（OscarBiblarz）著；谢侃，李世鹏，李军伟等译",
+        "bookCardD": "771f7870ac9747cdc96598087f40ab56",
+        "bookName": "火箭发动机基础",
+        "cnFenlei": "V43",
+        "coverurl": "http://cover.duxiu.com/coverNew/CoverNew.dll?iid=6d6a6366676a636b68645aa2a393ab95a899a6a195a69f3531393739343734",
+        "d": "0B78DBF824A71255F94BAF836AD8242D",
+        "dataproviders": "100,21",
+        "date": "2019.06",
+        "dxid": "000018625709",
+        "fenlei": "200303",
+        "introduce": "本书由英文第9版翻译而来，以通俗易懂的语言全面而细致的介绍了航天推进领域近乎所有的内容，包括推进原理、推进剂、各类推进器的结构、制造工艺、推进器的选择、羽流特征和试验方法等，对于系统的了解这一学科有很大帮助。本书可供高校火箭发动机相关专业学生、航空航天领域的工程师和希望了解基本推进知识的火箭爱好者等人员学习使用。",
+        "isFromBW": true,
+        "isFromJG": false,
+        "isFromNewLib": false,
+        "isFromZX": false,
+        "jpathD": "f4fec8ca0c5505f820cf0bb035e3d621",
+        "keyword": "火箭发动机",
+        "mulu": [
+          {
+            "dir": "1.2.2通管喷气发动机与火箭发动机的组合",
+            "pageNum": 7
+          },
+          {
+            "dir": "1.2.3核火箭发动机",
+            "pageNum": 8
+          },
+          {
+            "dir": "5.2燃烧室或发动机状态分析",
+            "pageNum": 124
+          }
+        ],
+        "page": "583",
+        "pdfOffline": false,
+        "pdgD": "8ca752e9819e1dee768891081df3a2f1",
+        "publisher": "北京：北京理工大学出版社",
+        "ssid": "96236740",
+        "zxD": "d5986258415bf97d0b74320582188d41"
+      },
+      {
+        "author": "冯益增主编；王璠，陈桂海，张春梅副主编；魏广远，王新立参编；王福忠主审",
+        "bookCardD": "85906cded9912064b55550708c0e3f09",
+        "bookName": "汽车发动机检修",
+        "cnFenlei": "U472.43",
+        "coverurl": "http://cover.duxiu.com/coverNew/CoverNew.dll?iid=62656067666460676367579fa090a892a596a39e92a39c3431353432373031",
+        "d": "686384EF195A8F2A50FCD2EE4C7991E9",
+        "dataproviders": "2",
+        "date": "2019.02",
+        "dxid": "000018035861",
+        "fenlei": "190405110403",
+        "introduce": "本书主要介绍发动机各系统的检修工艺，并对主要零部件及总成常见故障进行检修，包括八个学习任务：曲柄连杆机构检修、配气机构检修、汽油机燃料供给系统检修、进排气系统及排气净化装置检修、冷却系统检修、润滑系统检修、汽油机电控点火系统检修。每个学习任务包括三部分：知识准备、任务实施、故障案例。",
+        "isFromBW": false,
+        "isFromJG": false,
+        "isFromNewLib": false,
+        "isFromZX": false,
+        "jpathD": "16c11a812eded945e244da7f37e3fec2",
+        "keyword": "汽车－发动机－检修",
+        "mulu": [
+          {
+            "dir": "项目2  发动机起动困难检修",
+            "pageNum": 95
+          },
+          {
+            "dir": "项目3  发动机怠速不良检修",
+            "pageNum": 105
+          },
+          {
+            "dir": "项目4  发动机加速不良检修",
+            "pageNum": 110
+          }
+        ],
+        "page": "219",
+        "pdfOffline": false,
+        "pdgD": "8230d0ca0a741b4b5cae6ea4b5bdb3d0",
+        "publisher": "北京：北京理工大学出版社",
+        "ssid": "14653626",
+        "zxD": "517d3da4a3d2342f6adff1a92e129494"
+      },
+      {
+        "author": "周振，余旭东主编",
+        "bookCardD": "955a9fbd520ef03e35ed7b3a6df88ab9",
+        "bookName": "汽车发动机综合实训",
+        "cnFenlei": "U464",
+        "coverurl": "http://cover.duxiu.com/coverNew/CoverNew.dll?iid=6467626b646a6264686559a1a292aa94a798a5a094a59e3231343534373733",
+        "d": "339A61A2E136A9796C037C6B4D1FD7DC",
+        "dataproviders": "100,21",
+        "date": "2020.03",
+        "dxid": "000018985279",
+        "fenlei": "19040504",
+        "introduce": "本教材以汽车发动机综合实训的实际需要为出发点和落脚点，从强化培养操作技能、解决技术难题、掌握实用技能、提高学生工程能力的角度，较好地体现了当前最新的实用知识和操作技术，全书共十大任务，内容涉及汽车发动机综合实训安全要求、汽车发动机保养、汽车发动机曲柄连杆机构、汽车发动机配气机构、汽车发动机燃料供给系统、汽车发动机冷却系统、汽车发动机润滑系统、汽车发动机点火检测与维修、起动机检测与维修、汽车发动机综合性能检测与故障诊断。",
+        "isFromBW": true,
+        "isFromJG": false,
+        "isFromNewLib": false,
+        "isFromZX": false,
+        "jpathD": "555fff835b6905c542660e1a7749f226",
+        "keyword": "汽车-发动机-教材",
+        "mulu": [],
+        "page": "171",
+        "pdfOffline": false,
+        "pdgD": "1c72dc69523f14b65a15243b5612d3e5",
+        "publisher": "北京：北京理工大学出版社",
+        "ssid": "14817152",
+        "zxD": "9fe0632afbec799953216014f18ea163"
+      },
+      {
+        "author": "冯益增主编；王璠，张春梅，陈桂海副主编；王新立参编；王国林主审",
+        "bookCardD": "a34533c46a7705621ff261a1a77214aa",
+        "bookName": "汽车发动机检修",
+        "cnFenlei": "U472.43",
+        "coverurl": "http://cover.duxiu.com/coverNew/CoverNew.dll?iid=6567636c676d636a68675aa2a393ab95a899a6a195a69f3538363836393534",
+        "d": "461A60AC9D167D37FDEB0C4795A74807",
+        "dataproviders": "0,2,100,21",
+        "date": "2015.07",
+        "dxid": "000015532342",
+        "fenlei": "190405110403",
+        "introduce": "本书共包括8个学习任务：曲柄连杆机构检修、配气机构检修、汽油机燃料供给系统检修、柴油机燃料供给系统检修、进排气系统及排气净化装置检修、冷却系统检修、润滑系统检修、汽油机电控点火系统检修。",
+        "isFromBW": true,
+        "isFromJG": false,
+        "isFromNewLib": false,
+        "isFromZX": false,
+        "jpathD": "7f4cff6f7ecb7da95dc49f38e2747106",
+        "keyword": "汽车-发动机-检修",
+        "mulu": [
+          {
+            "dir": "（二）几种常见汽车发动机的气门间隙",
+            "pageNum": 66
+          },
+          {
+            "dir": "项目2柴油发动机起动困难检修",
+            "pageNum": 145
+          },
+          {
+            "dir": "（二）发动机的气波增压系统",
+            "pageNum": 188
+          }
+        ],
+        "page": "270",
+        "pdfOffline": false,
+        "pdgD": "243b541af24a48c4d40f44dd2166988a",
+        "publisher": "北京：北京理工大学出版社",
+        "ssid": "13839643",
+        "zxD": "5b164a5b5df0d6ea04e96f4c972e985b"
+      },
+      {
+        "author": "孙柏刚，杜巍编著",
+        "bookCardD": "53f29ace08d37f7a91d6510e94bbff19",
+        "bookName": "车辆发动机原理",
+        "cnFenlei": "U464",
+        "coverurl": "http://cover.duxiu.com/coverNew/CoverNew.dll?iid=6365616b67696166686b58a0a191a993a697a49f93a49d3431323734303032",
+        "d": "A9419E054720A7E44C1F90A2EA916CDD",
+        "dataproviders": "0,2,100,21",
+        "date": "2015.11",
+        "dxid": "000015798342",
+        "fenlei": "19040504",
+        "introduce": "本书讲述车辆(摩托车、汽车、拖拉机及装甲车辆等)用往复活塞式内燃机及燃气轮机的工作原理，全书共15章，主要内容包括：车辆发动机发展简史、发动机的应用范围、发动机的分类、坦克发动机的特点等。",
+        "isFromBW": true,
+        "isFromJG": false,
+        "isFromNewLib": false,
+        "isFromZX": false,
+        "jpathD": "01f6c7cd71949554b2059179ad5d5fff",
+        "keyword": "车辆-发动机-教材",
+        "mulu": [
+          {
+            "dir": "1.1  车辆发动机发展简史",
+            "pageNum": 1
+          },
+          {
+            "dir": "1.2  发动机的应用范围",
+            "pageNum": 5
+          },
+          {
+            "dir": "1.3  发动机的分类",
+            "pageNum": 5
+          }
+        ],
+        "page": "283",
+        "pdfOffline": false,
+        "pdgD": "229366b9751b4acde19377ad00bf7914",
+        "publisher": "北京：北京理工大学出版社",
+        "ssid": "13957469",
+        "zxD": "71a97c8ed89c059668dc6ae0a50ddc6a"
+      },
+      {
+        "author": "李勇主编；付舒，刘慧燕，王毅副主编；庄新颖，刘润明参编；王福忠主审",
+        "bookCardD": "aa0d01da5c8146b73be2b29f425950c1",
+        "bookName": "汽车发动机结构与拆装",
+        "cnFenlei": "U464",
+        "coverurl": "http://cover.duxiu.com/coverNew/CoverNew.dll?iid=6a6d686f6d69686a696b5fa7a898b09aad9eaba69aaba43738383837333439",
+        "d": "0EB76A5CBDDE3261966DC79D54128EEB",
+        "dataproviders": "2",
+        "date": "2019.02",
+        "dxid": "000018035839",
+        "fenlei": "19040504",
+        "introduce": "本书系统地介绍了发动机各系统的结构、工作原理及拆装工艺，共有8个学习任务：常用工量具、汽车发动机总体结构认识与工作原理、曲柄连杆机构的结构与拆装、配气机构的结构与拆装、汽油机燃料供给系结构与拆装、冷却系结构与拆装、润滑系结构与拆装、点火系结构与拆装。每个学习任务的设置都是以企业实际发生的案例引入，借以实际拍摄的图片和简练的文字说明阐明每个具体工作任务的操作流程与方法，便于学生理解。",
+        "isFromBW": false,
+        "isFromJG": false,
+        "isFromNewLib": false,
+        "isFromZX": false,
+        "jpathD": "e669e55eb068706fc1a41cbc12556c1e",
+        "keyword": "汽车－发动机－结构；汽车－发动机－装配(机械)",
+        "mulu": [
+          {
+            "dir": "学习任务1汽车发动机常用工量具识别",
+            "pageNum": 1
+          },
+          {
+            "dir": "（一）发动机的分类",
+            "pageNum": 17
+          },
+          {
+            "dir": "（二）发动机的总体构造",
+            "pageNum": 21
+          }
+        ],
+        "page": "218",
+        "pdfOffline": false,
+        "pdgD": "0e112331b2062f622f149d487a73b67c",
+        "publisher": "北京：北京理工大学出版社",
+        "ssid": "14640102",
+        "zxD": "46e0c5cce1fa76169a02ca6058b00ba1"
+      },
+      {
+        "author": "李勇主编；毕巍巍，付舒，王福忠副主编；刘润明，夏山鹏参编；王国林主审",
+        "bookCardD": "91a3a2386285ad9fac8b6b7dbf99cd58",
+        "bookName": "汽车发动机结构与拆装",
+        "cnFenlei": "U464",
+        "coverurl": "http://cover.duxiu.com/coverNew/CoverNew.dll?iid=6769656e6a6a656b6c6f5ca4a595ad97aa9ba8a397a8a13536393739333036",
+        "d": "1E04D42847D1CB327936178E7DFA055B",
+        "dataproviders": "0,100,21",
+        "date": "2015.07",
+        "dxid": "000015581622",
+        "fenlei": "19040504",
+        "introduce": "本书系统的介绍了发动机各系统的结构、工作原理及拆装工艺，共有9个学习任务：汽车发动机维修基础与基本技能、汽车发动机总体结构认识与工作原理、曲柄连杆机构的结构与拆装、配气机构的结构与拆装、汽油机燃料供给系结构与拆装、柴油发动机燃料供给系结构与拆装、冷却系结构与拆装、润滑系结构与拆装、点火系结构与拆装。每个学习任务的设置都是以企业实际发生的案例引入，借以实际拍摄的图片和简练的文字说明阐明每个具体工作任务的操作流程与方法。",
+        "isFromBW": true,
+        "isFromJG": false,
+        "isFromNewLib": false,
+        "isFromZX": false,
+        "jpathD": "49b1457808023d1351a6b03e73eaff17",
+        "keyword": "汽车-发动机-装配（机械）-汽车-发动机-结构",
+        "mulu": [
+          {
+            "dir": "学习任务1  汽车发动机维修基础与基本技能",
+            "pageNum": 1
+          },
+          {
+            "dir": "学习任务2  发动机总体构造认识与工作原理",
+            "pageNum": 23
+          },
+          {
+            "dir": "（一）发动机的分类",
+            "pageNum": 23
+          }
+        ],
+        "page": "327",
+        "pdfOffline": false,
+        "pdgD": "e64c1db0996bb14ab81358a2cf3c070c",
+        "publisher": "北京：北京理工大学出版社",
+        "ssid": "13844569",
+        "zxD": "72452a10cba61b27992869e7bc3cd6ad"
+      }
+    ],
+    "total": 450
+  },
+  "success": true
+}
