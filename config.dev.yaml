@@ -21,7 +21,7 @@ zap:
 # redis configuration
 redis:
   db: 0
-  addr: '123.57.20.104:6379'
+  addr: '127.0.0.1:6379'
   password: '123456'
 
 # casbin configuration
@@ -37,11 +37,11 @@ system:
 
 # mysql connect configuration
 mysql:
-  path: '123.57.20.104:3306'
+  path: '127.0.0.1:3306'
   config: 'charset=utf8mb4&parseTime=True&loc=Local'
   db-name: 'book_rec_system'
   username: 'root'
-  password: 'Tanshaokang1*.'
+  password: '123456'
   max-idle-conns: 10
   max-open-conns: 100
   log-mode: 'debug'
